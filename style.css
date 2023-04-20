@@ -1,14 +1,18 @@
-.row
+.rows
 {
     background-color: #fceae8;
     padding: 50px 80px;
     border-radius: 15px;
-    margin-top: 80px;
-
-
-
-    
+    margin-top: 80px;  
 }
+
+.roww
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
 #down
 {
     padding-top: 20px;
@@ -31,4 +35,59 @@ h2
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.watchColor
+{
+    background-color :orange;
+    /* background-image: linear-gradient(to side, orange 30%,tomato); */
+    border-radius: 5px;
+}
+.bagColor
+{
+    background-color: palevioletred;
+    border-radius: 5px;
+    
+}
+.shoeColor
+{
+    background-color: rgb(60, 60, 127);
+    border-radius: 5px;
+    padding: 10px,30px;
+}
+.watchColor, .bagColor, .shoeColor
+{
+    padding: 10px 30px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card
+{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+.bb
+{
+    margin-top: 30px;
+}
+.dd
+{
+    margin-bottom: 40px;
+}
+.hh
+{
+    background-color:#fceae8;
+    text-align: center;
+    padding: 50px 30px;
+}
+#jj
+{
+    color: gray;
+}
+footer
+{
+    text-align: center;
 }
